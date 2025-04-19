@@ -1,0 +1,9 @@
+datetime
+streamlit
+pandas
+matplotlib
+seaborn
+yfinance
+scikit-learn
+scipy
+numpy
