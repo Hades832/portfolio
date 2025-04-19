@@ -13,7 +13,7 @@ if 'portfolio_data' not in st.session_state:
 # Sidebar inputs
 with st.sidebar:
     st.header("Investment Parameters")
-    default_stocks = 'AAPL,HMC,NVDA,TSLA,AMZN,GOOGL'
+    default_stocks = 'AAPL,HMC,NVDA,TSLA,AMZN'
     stocks_input = st.text_input('Enter stock symbols (comma separated):', default_stocks)
     stocks = [s.strip().upper() for s in stocks_input.split(',') if s.strip()]
     
